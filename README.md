@@ -48,6 +48,12 @@ PRIO DYNAMIC:
 make prio_dynamic
 ```
 
+PRIO DYNAMIC:
+
+```
+make scherdule_analysis
+```
+
 Serão gerados arquivos executáveis para cada um dos escalonadores.
 
 ## Execução
@@ -56,5 +62,10 @@ Para executar os escalonadores:
 
 ```
 ./main_fifo numero_de_processos
+```
+Para executar a análise:
+
+```
+./scherdule_analysis
 ```
 
